@@ -1,6 +1,6 @@
 {
   "name": "aem-lp-template",
-  "version": "0.1.7",
+  "version": "1.0.0",
   "description": "Inspired by ShapingRain.com.",
   "license": "MIT License, Copyright 2020 Adobe Systems Incorporated",
   "scripts": {
