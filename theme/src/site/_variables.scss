@@ -1,0 +1,23 @@
+
+//== Font
+
+$font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+$font-size:             15px;
+$font-height:           25px;
+$font-weight:           normal;
+
+//== Color
+
+// Normal mode
+$color-foreground:      #111;
+$color-background:      #fff;
+$color-link:            #111;
+
+// Dark mode
+$color-foreground-dark: invert($color-foreground);
+$color-background-dark: invert($color-background);
+$color-link-dark:       invert($color-link);
+
+//== Grid
+
+$max_col: 12;

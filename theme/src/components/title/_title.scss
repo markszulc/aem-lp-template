@@ -1,0 +1,41 @@
+.cmp-title {}
+.cmp-title__text {}
+.cmp-title__link {}
+
+
+.title-sectionname{
+    .cmp-title__text {
+        font-size: 14px;
+        font-weight: bold;
+        color: #ccc;
+        letter-spacing: 2px;
+        padding-bottom: 0;
+        text-transform: uppercase;        
+    }
+
+}
+
+.title-sectionheading {
+    .cmp-title__text{
+        font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+        font-size: 34px; 
+        font-weight:700;
+        line-height: normal;
+        color:#111;
+        padding: 20px 0px;
+    }
+    .cmp-title__text:after {
+        background: #d2b356;
+        content: "";
+        display: block;
+        width: 30px;
+        height: 5px;
+        margin-top: 30px;
+    }
+}
+
+.title-sectionheading-center {
+    .cmp-title__text:after {
+        margin: 30px auto 25px auto;
+    }
+}

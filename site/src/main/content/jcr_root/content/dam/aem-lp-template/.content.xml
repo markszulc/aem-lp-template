@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content
+        cq:conf="/conf/microsite"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Micro Sites">
+        <folderThumbnail/>
+    </jcr:content>
+    <asset.jpg/>
+    <dancer.jpg/>
+    <gallery-image-1.jpg/>
+    <gallery-image-2.jpg/>
+    <gallery-image-3.jpg/>
+    <gallery-image-4.jpg/>
+    <gallery-image-5.jpg/>
+    <gallery-image-6.jpg/>
+    <logo.png/>
+    <user-1.jpg/>
+    <user-2.jpg/>
+    <user-3.jpg/>
+</jcr:root>

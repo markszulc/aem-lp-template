@@ -1,0 +1,67 @@
+//== Base
+
+html,
+body {
+    margin: 0;
+    font-size:   $font-size;
+    font-family: $font-family;
+    line-height: $font-height;
+    color:       $color-foreground;
+    background:  $color-background;
+
+    @media (prefers-color-scheme: dark) {
+        color:       $color-foreground-dark;
+        background:  $color-background-dark;
+    }
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+    direction: ltr
+}
+
+a {
+    color: $color-link;
+    text-decoration: none;
+    line-height: inherit;
+
+    @media (prefers-color-scheme: dark) {
+        color: $color-link-dark;
+    }
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ccc;
+    letter-spacing: 2px;
+    padding: 10px 0;
+    padding-bottom: 0;
+
+}
+
+
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font: inherit;
+}
+
+
+//== Grid
+
+// Default breakpoint
+.aem-Grid {
+    @include generate-grid(default, $max_col);
+}
+
+// Phone breakpoint
+@media (max-width: 768px) {
+    .aem-Grid {
+        @include generate-grid(phone, $max_col);
+    }
+}

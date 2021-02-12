@@ -1,0 +1,186 @@
+.cmp-teaser {}
+.cmp-teaser__image {}
+.cmp-teaser__content {}
+.cmp-teaser__pretitle {}
+.cmp-teaser__title {}
+.cmp-teaser__title-link {}
+.cmp-teaser__description {}
+.cmp-teaser__action-container {}
+.cmp-teaser__action-link {}
+
+
+.teaser-hero {
+    .cmp-teaser {
+        width: 38%;
+    }
+    .cmp-teaser__image {}
+    .cmp-teaser__content {}
+    .cmp-teaser__pretitle {}
+
+    .cmp-teaser__title::before {
+        content: "";
+        background: #d2b356;
+        display: block;
+        width: 30px;
+        height: 5px;
+        margin-top: -30px;
+        position: absolute;
+    }
+    .cmp-teaser__title {
+        font-weight: 800;
+        color: #111;
+        text-decoration: none;
+        margin-top: 10px;
+        font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+        font-size: 62px;
+        font-weight: 800;
+        line-height: 60px;
+        color: #111;
+        text-decoration: none;
+
+    }
+    .cmp-teaser__title-link {
+
+    }
+    .cmp-teaser__description {
+        font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+        font-size: 18px;
+        font-weight: 300;
+        color: #111;
+    }
+    .cmp-teaser__description::after {
+        background: #d2b356;
+        content: "";
+        display: block;
+        width: 30px;
+        height: 5px;
+        margin-top: 30px;
+    }
+    .cmp-teaser__action-container {
+        text-decoration: none;
+        border-color: #111;
+        transition: all .3s linear;
+        display: inline-block;
+        border-width: 3px;
+        border-style: solid;
+        margin: 35px 0;
+        padding: 11px 16px;
+    }
+    .cmp-teaser__action-link {
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+        font-size: 16px;
+        font-weight: bold;
+
+        color: #111;
+    }
+
+}
+
+
+.teaser-feature {
+    .cmp-teaser {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .cmp-teaser__content {
+        width: 50%;
+    }
+
+    .cmp-teaser__pretitle {
+        font-size: 14px;
+        font-weight: bold;
+        color: #ccc;
+        letter-spacing: 2px;
+        padding-bottom: 0;
+    }
+
+    .cmp-teaser__title {
+        font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+        font-size: 34px; 
+        font-weight:700;
+        color:#111;
+        line-height: normal;
+    }
+
+    .cmp-teaser__title:after {
+        background: #d2b356;
+        content: "";
+        display: block;
+        width: 30px;
+        height: 5px;
+        margin-top: 30px;
+    }
+
+    .cmp-teaser__description > p:first-of-type {
+        font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+        font-size: 16px;
+        font-weight:300;
+        color:#9c9c9c;
+    }
+
+    .cmp-teaser__action-container {
+        text-decoration: none;
+        border-color: #111;
+        transition: all .3s linear;
+        display: inline-block;
+        border-width: 3px;
+        border-style: solid;
+        margin: 35px 0;
+        padding: 11px 16px;
+    }
+    .cmp-teaser__action-link {
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+        font-size: 16px;
+        font-weight: bold;
+
+        color: #111;
+    }
+
+    
+    .cmp-teaser__image {
+        width: 50%;
+    }
+}
+
+.teaser-testimonial {
+
+    .cmp-teaser__image img {
+        max-height: 120px;
+        border-radius: 250em;
+        display: inline-block;
+        margin-bottom: 0px;
+        max-width:120px;
+    }
+
+    .cmp-teaser__content {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0 20px;
+    }
+
+    .cmp-teaser__title {
+        font-size: 15px;
+        font-weight: normal;
+        padding-top: 12px;
+        color: #111;
+    }
+
+    .cmp-teaser__description{
+        font-size: 17px;
+        font-weight: 300;
+        color: #111;
+    }
+
+    .cmp-teaser__description:after {
+        background: #d2b356;
+        content: "";
+        display: block;
+        width: 30px;
+        height: 5px;
+        margin: 5px auto 5px auto;
+    }
+
+}

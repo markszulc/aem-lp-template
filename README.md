@@ -1,14 +1,13 @@
 # AEM Landing Page Template
 
-This is the basic site template for Adobe Experience Manager as a Cloud Service (AEMaaCS).
+This is the basic landing page template for Adobe Experience Manager as a Cloud Service (AEMaaCS).
 
 <img src="previews/site.png?raw=true" alt="Basic site preview" width="50%">
 
-It can serve as a most basic starting point for creating a new site, or as a staring point for creating custom site templates.
+It's (heavily) inspired by the Namari Landing Page template on https://shapingrain.com/free-landing-page-template/ but based on AEM Core Components and no custom coding. At this stage its still lacking the fancy animations & parallex scrolling.. 
 
 ## Structure
 
-* `files`: Folder with the UI kit XD file and possibly other files.
 * `previews`: Folder with screenshots of the site template.
 * `site`: Content package of the content that will be copied for each site created from this template (templates, pages, etc.).
 * `theme`: Sources of the template theme to modify how the site looks (CSS, JS, etc.).
@@ -16,11 +15,11 @@ It can serve as a most basic starting point for creating a new site, or as a sta
 ## Install on AEMaaCS
 
 * Go to <https://github.com/adobe/aem-site-template-basic/releases/latest> and download `aem-site-template-basic-{version}.zip`
-* Upload `aem-site-template-basic-{version}.zip` in AEMaaCS's site creation wizard to create a new site from that template.
+* Upload `aem-lp-template-{version}.zip` in AEMaaCS's site creation wizard to create a new site from that template.
 
 ## Build locally
 
-Alternatively you can build `aem-site-template-basic-{version}.zip` locally.
+Alternatively you can build `aem-lp-template-{version}.zip` locally.
 
 1. Install Maven (to be able to use the packaging script).
 1. Initialize the project with following command executed at the template root:
@@ -35,7 +34,7 @@ Alternatively you can build `aem-site-template-basic-{version}.zip` locally.
    npm run build
    ```
 
-1. The site template ZIP file is now located below the template root: `aem-site-template-basic-{version}.zip`.
+1. The site template ZIP file is now located below the template root: `aem-lp-template-{version}.zip`.
 1. Upload to an AEMaaCS site creation wizard. For installing on a local cloudready development instance use `npm run deploy`.
 
 ## Develop Site Template
@@ -49,11 +48,3 @@ Run `Build and release` GitHub workflow and provide the semantic version you're 
 * Build Site Template
 * Release latest version on github
 * Commit, build and release latest Site Theme related changes in [Site Theme E2E Repo](https://github.com/adobe/aem-site-template-basic-theme-e2e).
-
-## Contributing
-
-Contributions are welcomed! Read the [Contributing Guide](.github/CONTRIBUTING.md) for more information.
-
-## Licensing
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE.md) for more information.

@@ -1,0 +1,21 @@
+{
+  "name": "aem-lp-template",
+  "version": "0.1.7",
+  "description": "Inspired by ShapingRain.com.",
+  "license": "MIT License, Copyright 2020 Adobe Systems Incorporated",
+  "scripts": {
+    "build": "aem-site-template-builder",
+    "deploy": "SITE_TEMPLATE_ZIP=\"$(node -p -e \"require('./package.json').name\")-$(node -p -e \"require('./package.json').version\").zip\" && curl -u admin:admin -F file=$SITE_TEMPLATE_ZIP http://localhost:4502/conf/global/site-templates.import.html"
+  },
+  "devDependencies": {
+    "@adobe/aem-site-template-builder": "2.0.0"
+  },
+  "siteTemplate": {
+    "title": "Namari Landing Page Template",
+    "createdBy": "Mark Szulc",
+    "useCases": [],
+    "docsUrl": "",
+    "showcaseUrl": "https://demos.onepagelove.com/html/namari/",
+    "sourceRepositoryUrl": "https://github.com/adobe/aem-site-template-basic"
+  }
+}
